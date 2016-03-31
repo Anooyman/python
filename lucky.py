@@ -4,8 +4,6 @@ import random
 import time
 import re
 import select
-import termios
-import os 
 
 #检测用户键盘输入函数，windows下无需这个函数，直接调用mscvrt模块
 def kbhit():
