@@ -23,7 +23,7 @@ def cookiebug(url):
     return response.read()
 
 if __name__ == '__main__':
-    url = 'http://www.baidu.com'
+    url = 'http://baike.baidu.com/view/21087.htm'
     html_doc = cookiebug(url)
     soup = BeautifulSoup(html_doc,'html.parser',from_encoding='utf-8')
     print html_doc
