@@ -1,0 +1,182 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	HtmlParser.py	/^from bs4 import BeautifulSoup$/;"	i	language:Python
+BeautifulSoup	bug.py	/^from bs4 import BeautifulSoup$/;"	i	language:Python
+DOMTree	pcap2xml.py	/^    DOMTree = ET.parse("com.ophone.MiniPlayer.pdml")$/;"	v	language:Python
+ET	pcap2xml.py	/^import xml.etree.cElementTree as ET$/;"	i	language:Python
+HtmlDownloader	HtmlDownloader.py	/^class HtmlDownloader(object):$/;"	c	language:Python	inherits:object
+HtmlDownloader	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
+HtmlOutputer	HtmlOutputer.py	/^class HtmlOutputer(object):$/;"	c	language:Python	inherits:object
+HtmlOutputer	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
+HtmlParser	HtmlParser.py	/^class HtmlParser(object):$/;"	c	language:Python	inherits:object
+HtmlParser	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
+SchoolMember	school.py	/^class SchoolMember:$/;"	c	language:Python	inherits:
+SpiderMain	PythonBug.py	/^class SpiderMain(object):$/;"	c	language:Python	inherits:object
+Student	school.py	/^class Student(SchoolMember):$/;"	c	language:Python	inherits:SchoolMember
+Teacher	school.py	/^class Teacher(SchoolMember):$/;"	c	language:Python	inherits:SchoolMember
+UrlManager	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
+UrlManager	UrlManager.py	/^class UrlManager(object):$/;"	c	language:Python	inherits:object
+__del__	school.py	/^    def __del__(self):$/;"	m	language:Python	class:SchoolMember	file:	access:private
+__del__	school.py	/^    def __del__(self):$/;"	m	language:Python	class:Student	file:	access:private
+__del__	school.py	/^    def __del__(self):$/;"	m	language:Python	class:Teacher	file:	access:private
+__init__	HtmlOutputer.py	/^    def __init__(self):$/;"	m	language:Python	class:HtmlOutputer	access:public
+__init__	PythonBug.py	/^    def __init__(self):$/;"	m	language:Python	class:SpiderMain	access:public
+__init__	UrlManager.py	/^    def __init__(self):$/;"	m	language:Python	class:UrlManager	access:public
+__init__	school.py	/^    def __init__(self,name):$/;"	m	language:Python	class:SchoolMember	access:public
+__init__	school.py	/^    def __init__(self,name,mark,idnum):$/;"	m	language:Python	class:Student	access:public
+__init__	school.py	/^    def __init__(self,name,salary):$/;"	m	language:Python	class:Teacher	access:public
+_get_new_data	HtmlParser.py	/^    def _get_new_data(self,page_url,soup):$/;"	m	language:Python	class:HtmlParser	access:public
+_get_new_urls	HtmlParser.py	/^    def _get_new_urls(self,page_url,soup):$/;"	m	language:Python	class:HtmlParser	access:public
+a	str.py	/^    a='aAsmr3idd4bgs7Dlsf9eAF'$/;"	v	language:Python
+add_new_url	UrlManager.py	/^    def add_new_url(self,url):$/;"	m	language:Python	class:UrlManager	access:public
+add_new_urls	UrlManager.py	/^    def add_new_urls(self,urls):$/;"	m	language:Python	class:UrlManager	access:public
+all_the_text	2012.py	/^    all_the_text=open_file(file_name,'read_all')$/;"	v	language:Python
+allnum	josephus.py	/^    allnum=int(sys.argv[1])$/;"	v	language:Python
+cmd	socket_client.py	/^        cmd = raw_input("Please input cmd:")$/;"	v	language:Python
+collect_data	HtmlOutputer.py	/^    def collect_data(self,data):$/;"	m	language:Python	class:HtmlOutputer	access:public
+collection	pcap2xml.py	/^    collection = DOMTree.getroot()$/;"	v	language:Python
+commands	socket_sever.py	/^import commands$/;"	i	language:Python
+cookiebug	bug.py	/^def cookiebug(url):$/;"	f	language:Python	access:public
+cookielib	bug.py	/^import cookielib$/;"	i	language:Python
+count	fib.py	/^def count(n):$/;"	f	language:Python	access:public
+count	score.py	/^def count(n):$/;"	f	language:Python	access:public
+cout	fib.py	/^def cout(n):$/;"	f	language:Python	access:public
+craw	PythonBug.py	/^    def craw(self,root_url):$/;"	m	language:Python	class:SpiderMain	access:public
+creat_number	lucky.py	/^def creat_number():$/;"	f	language:Python	access:public
+cursor	pcap2xml.py	/^    cursor = db.cursor()$/;"	v	language:Python
+data	socket_client.py	/^        data = s.recv(1024)$/;"	v	language:Python
+data	socket_sever.py	/^        data = conn.recv(1024)$/;"	v	language:Python
+data_size	pcap2xml.py	/^                data_size = item.attrib["size"]$/;"	v	language:Python
+data_size	pcap2xml.py	/^        data_size = 0 $/;"	v	language:Python
+data_size	pcap2xml.py	/^       data_size = line[6]$/;"	v	language:Python
+db	pcap2xml.py	/^    db = sqlite3.connect("PACKETS.db")$/;"	v	language:Python
+download	HtmlDownloader.py	/^    def download(self,url):$/;"	m	language:Python	class:HtmlDownloader	access:public
+dst_ip	pcap2xml.py	/^                dst_ip = string[s+5:t]$/;"	v	language:Python
+dst_ip	pcap2xml.py	/^        dst_ip = ""$/;"	v	language:Python
+dst_ip	pcap2xml.py	/^       dst_ip = line[4]$/;"	v	language:Python
+dst_port	pcap2xml.py	/^                dst_port = string[s+10:t]$/;"	v	language:Python
+dst_port	pcap2xml.py	/^        dst_port = "" $/;"	v	language:Python
+dst_port	pcap2xml.py	/^       dst_port = line[5]$/;"	v	language:Python
+etree	pcap2xml.py	/^import xml.etree.cElementTree as ET$/;"	i	language:Python
+file0	pcap2xml.py	/^    file0 = open("new.xml","w")$/;"	v	language:Python
+file_len	2012.py	/^    file_len=open_file(file_name,'len')$/;"	v	language:Python
+file_name	2012.py	/^    file_name=sys.argv[1]$/;"	v	language:Python
+file_name	lucky.py	/^    file_name=sys.argv[1]$/;"	v	language:Python
+find_number	2012.py	/^def find_number(name):$/;"	f	language:Python	access:public
+find_number	lucky.py	/^def find_number(file_name):$/;"	f	language:Python	access:public
+find_number	str.py	/^def find_number(a):$/;"	f	language:Python	access:public
+findnum	number.py	/^def findnum(n):$/;"	f	language:Python	access:public
+get_new_url	UrlManager.py	/^    def get_new_url(self):$/;"	m	language:Python	class:UrlManager	access:public
+has_new_url	UrlManager.py	/^    def has_new_url(self):$/;"	m	language:Python	class:UrlManager	access:public
+host	socket_client.py	/^    host = '127.0.0.1'$/;"	v	language:Python
+host	socket_sever.py	/^host = '127.0.0.1'$/;"	v	language:Python
+html_doc	bug.py	/^    html_doc = cookiebug(url)$/;"	v	language:Python
+i	score.py	/^            i=i+1$/;"	v	language:Python
+i	score.py	/^    i=1$/;"	v	language:Python
+indent	pcap2xml.py	/^def indent(elem, level=0):$/;"	f	language:Python	access:public
+kbhit	lucky.py	/^def kbhit():$/;"	f	language:Python	access:public
+link	bug.py	/^    link = soup.find_all('a')$/;"	v	language:Python
+link1	bug.py	/^    link1= soup.find('a',href=re.compile(r'search'))$/;"	v	language:Python
+list1	fib.py	/^    list1=[];$/;"	v	language:Python
+list1	josephus.py	/^    list1=[]$/;"	v	language:Python
+list1	score.py	/^    list1=[]$/;"	v	language:Python
+lucky_number	lucky.py	/^    lucky_number=find_number(file_name)$/;"	v	language:Python
+m	pcap2xml.py	/^       m = {"source_ip":src_ip, "source_port":src_port,$/;"	v	language:Python
+make_dictionary	str.py	/^def make_dictionary(a):$/;"	f	language:Python	access:public
+make_dictionary_withnum	str.py	/^def make_dictionary_withnum(a):$/;"	f	language:Python	access:public
+makepacketnode	pcap2xml.py	/^def makepacketnode(par, mdict):$/;"	f	language:Python	access:public
+math	number.py	/^import math$/;"	i	language:Python
+n	josephus.py	/^            n=(n+quitnum) % len(list1)$/;"	v	language:Python
+n	josephus.py	/^    n=quitnum%allnum$/;"	v	language:Python
+num	fib.py	/^        num=8$/;"	v	language:Python
+num	fib.py	/^        num=int(sys.argv[1])  #获取命令行参数$/;"	v	language:Python
+num	number.py	/^        num =10$/;"	v	language:Python
+num	number.py	/^        num=int(sys.argv[1])$/;"	v	language:Python
+num	pcap2xml.py	/^       num = line[0]$/;"	v	language:Python
+num	pcap2xml.py	/^    num = 1$/;"	v	language:Python
+num	score.py	/^        num=float(raw_input())$/;"	v	language:Python
+obj_spider	PythonBug.py	/^    obj_spider = SpiderMain()$/;"	v	language:Python	class:SpiderMain
+open_file	2012.py	/^def open_file(name,how):$/;"	f	language:Python	access:public
+openandwrite_file	2012.py	/^def openandwrite_file(open_name,write_name):$/;"	f	language:Python	access:public
+output_html	HtmlOutputer.py	/^    def output_html(self):$/;"	m	language:Python	class:HtmlOutputer	access:public
+packet_size	pcap2xml.py	/^            packet_size = item.attrib["size"]$/;"	v	language:Python
+packet_size	pcap2xml.py	/^        packet_size = 0 $/;"	v	language:Python
+packet_size	pcap2xml.py	/^       packet_size = line[8]$/;"	v	language:Python
+parse	HtmlParser.py	/^    def parse(self, page_url, html_cont):$/;"	m	language:Python	class:HtmlParser	access:public
+port	socket_client.py	/^    port = 9999$/;"	v	language:Python
+port	socket_sever.py	/^port = 9999$/;"	v	language:Python
+protocol	pcap2xml.py	/^                protocol = "tcp"$/;"	v	language:Python
+protocol	pcap2xml.py	/^                protocol = "udp"$/;"	v	language:Python
+protocol	pcap2xml.py	/^        protocol = ""$/;"	v	language:Python
+protocol	pcap2xml.py	/^       protocol = line[3]$/;"	v	language:Python
+quitnum	josephus.py	/^    quitnum=int(sys.argv[2])$/;"	v	language:Python
+quitnum	josephus.py	/^    quitnum=quitnum-1$/;"	v	language:Python
+random	lucky.py	/^import random$/;"	i	language:Python
+re	2012.py	/^import re$/;"	i	language:Python
+re	HtmlParser.py	/^import re$/;"	i	language:Python
+re	bug.py	/^import re$/;"	i	language:Python
+re	lucky.py	/^import re$/;"	i	language:Python
+re	str.py	/^import re$/;"	i	language:Python
+read_file	lucky.py	/^def read_file(name):$/;"	f	language:Python	access:public
+requestbug	bug.py	/^def requestbug(url):$/;"	f	language:Python	access:public
+results	pcap2xml.py	/^    results = cursor.execute(sql)$/;"	v	language:Python
+rm_word	str.py	/^def rm_word(a):$/;"	f	language:Python	access:public
+root	pcap2xml.py	/^    root = ET.Element("packetcollection")$/;"	v	language:Python
+root_url	PythonBug.py	/^    root_url="http:\/\/baike.baidu.com\/view\/262.htm"$/;"	v	language:Python	class:SpiderMain
+s	pcap2xml.py	/^                s = string.find("Dst Port:",t)$/;"	v	language:Python
+s	pcap2xml.py	/^                s = string.find("Dst:", t)$/;"	v	language:Python
+s	pcap2xml.py	/^                s = string.find("Src Port:",0)$/;"	v	language:Python
+s	pcap2xml.py	/^                s = string.find("Src:", 0)$/;"	v	language:Python
+s	school.py	/^    s=Student("小河",77,2012001)$/;"	v	language:Python
+s	socket_client.py	/^    s = socket.socket()$/;"	v	language:Python
+s	socket_sever.py	/^s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)$/;"	v	language:Python
+say_hello	school.py	/^    def say_hello(self):$/;"	m	language:Python	class:SchoolMember	access:public
+say_hello	school.py	/^    def say_hello(self):$/;"	m	language:Python	class:Student	access:public
+say_hello	school.py	/^    def say_hello(self):$/;"	m	language:Python	class:Teacher	access:public
+select	lucky.py	/^import select$/;"	i	language:Python
+simplebug	bug.py	/^def simplebug(url):$/;"	f	language:Python	access:public
+socket	socket_client.py	/^import socket$/;"	i	language:Python
+socket	socket_sever.py	/^import socket$/;"	i	language:Python
+sort_dictionary	str.py	/^def sort_dictionary(a):$/;"	f	language:Python	access:public
+soup	bug.py	/^    soup = BeautifulSoup(html_doc,'html.parser',from_encoding='utf-8')$/;"	v	language:Python
+sql	pcap2xml.py	/^    sql = "SELECT * FROM packet"$/;"	v	language:Python
+sqlite3	pcap2xml.py	/^import sqlite3$/;"	i	language:Python
+src_ip	pcap2xml.py	/^                src_ip = string[s+5:t]$/;"	v	language:Python
+src_ip	pcap2xml.py	/^        src_ip = ""$/;"	v	language:Python
+src_ip	pcap2xml.py	/^       src_ip = line[1]$/;"	v	language:Python
+src_port	pcap2xml.py	/^                src_port = string[s+10:t]$/;"	v	language:Python
+src_port	pcap2xml.py	/^        src_port = ""$/;"	v	language:Python
+src_port	pcap2xml.py	/^       src_port = line[2]$/;"	v	language:Python
+string	2012.py	/^import string$/;"	i	language:Python
+string	pcap2xml.py	/^                string = item.attrib["showname"]$/;"	v	language:Python
+string	pcap2xml.py	/^import string $/;"	i	language:Python
+string	str.py	/^import string $/;"	i	language:Python
+sum_number	school.py	/^    sum_number=0$/;"	v	language:Python	class:SchoolMember
+sys	2012.py	/^import sys$/;"	i	language:Python
+sys	fib.py	/^import sys$/;"	i	language:Python
+sys	josephus.py	/^import sys$/;"	i	language:Python
+sys	lucky.py	/^import sys$/;"	i	language:Python
+sys	number.py	/^import sys$/;"	i	language:Python
+sys	pcap2xml.py	/^import sys$/;"	i	language:Python
+sys	score.py	/^import sys$/;"	i	language:Python
+t	pcap2xml.py	/^                t = string.find(" (",0)$/;"	v	language:Python
+t	pcap2xml.py	/^                t = string.find(" (",t+1)$/;"	v	language:Python
+t	school.py	/^    t=Teacher("老黄",3000)$/;"	v	language:Python
+time	lucky.py	/^import time$/;"	i	language:Python
+timestamp	pcap2xml.py	/^                timestamp = x.attrib["show"]$/;"	v	language:Python
+timestamp	pcap2xml.py	/^        timestamp = "" $/;"	v	language:Python
+timestamp	pcap2xml.py	/^       timestamp = line[7]$/;"	v	language:Python
+tree	pcap2xml.py	/^    tree = ET.ElementTree(root)$/;"	v	language:Python
+types	str.py	/^import types$/;"	i	language:Python
+url	bug.py	/^    url = 'http:\/\/baike.baidu.com\/view\/21087.htm'$/;"	v	language:Python
+urllib2	HtmlDownloader.py	/^import urllib2$/;"	i	language:Python
+urllib2	bug.py	/^import urllib2$/;"	i	language:Python
+urlparse	HtmlParser.py	/^import urlparse$/;"	i	language:Python
+write_file	2012.py	/^def write_file(name,content):$/;"	f	language:Python	access:public
+write_file	lucky.py	/^def write_file(name,content):$/;"	f	language:Python	access:public
+x	pcap2xml.py	/^       x = makepacketnode(root,m)$/;"	v	language:Python
+xml	pcap2xml.py	/^import xml.etree.cElementTree as ET$/;"	i	language:Python
