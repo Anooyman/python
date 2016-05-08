@@ -3,186 +3,288 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
-BeautifulSoup	HtmlParser.py	/^from bs4 import BeautifulSoup$/;"	i	language:Python
-BeautifulSoup	bug.py	/^from bs4 import BeautifulSoup$/;"	i	language:Python
-DOMTree	pcap2xml.py	/^    DOMTree = ET.parse("com.ophone.MiniPlayer.pdml")$/;"	v	language:Python
-ET	pcap2xml.py	/^import xml.etree.cElementTree as ET$/;"	i	language:Python
-HtmlDownloader	HtmlDownloader.py	/^class HtmlDownloader(object):$/;"	c	language:Python	inherits:object
-HtmlDownloader	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
-HtmlOutputer	HtmlOutputer.py	/^class HtmlOutputer(object):$/;"	c	language:Python	inherits:object
-HtmlOutputer	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
-HtmlParser	HtmlParser.py	/^class HtmlParser(object):$/;"	c	language:Python	inherits:object
-HtmlParser	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
-SchoolMember	school.py	/^class SchoolMember:$/;"	c	language:Python	inherits:
-SpiderMain	PythonBug.py	/^class SpiderMain(object):$/;"	c	language:Python	inherits:object
-Student	school.py	/^class Student(SchoolMember):$/;"	c	language:Python	inherits:SchoolMember
-Teacher	school.py	/^class Teacher(SchoolMember):$/;"	c	language:Python	inherits:SchoolMember
-UrlManager	PythonBug.py	/^import UrlManager,HtmlDownloader,HtmlParser,HtmlOutputer$/;"	i	language:Python
-UrlManager	UrlManager.py	/^class UrlManager(object):$/;"	c	language:Python	inherits:object
-__del__	school.py	/^    def __del__(self):$/;"	m	language:Python	class:SchoolMember	file:	access:private
-__del__	school.py	/^    def __del__(self):$/;"	m	language:Python	class:Student	file:	access:private
-__del__	school.py	/^    def __del__(self):$/;"	m	language:Python	class:Teacher	file:	access:private
-__init__	HtmlOutputer.py	/^    def __init__(self):$/;"	m	language:Python	class:HtmlOutputer	access:public
-__init__	PythonBug.py	/^    def __init__(self):$/;"	m	language:Python	class:SpiderMain	access:public
-__init__	UrlManager.py	/^    def __init__(self):$/;"	m	language:Python	class:UrlManager	access:public
-__init__	school.py	/^    def __init__(self,name):$/;"	m	language:Python	class:SchoolMember	access:public
-__init__	school.py	/^    def __init__(self,name,mark,idnum):$/;"	m	language:Python	class:Student	access:public
-__init__	school.py	/^    def __init__(self,name,salary):$/;"	m	language:Python	class:Teacher	access:public
-_get_new_data	HtmlParser.py	/^    def _get_new_data(self,page_url,soup):$/;"	m	language:Python	class:HtmlParser	access:public
-_get_new_urls	HtmlParser.py	/^    def _get_new_urls(self,page_url,soup):$/;"	m	language:Python	class:HtmlParser	access:public
-a	str.py	/^    a='aAsmr3idd4bgs7Dlsf9eAF'$/;"	v	language:Python
-add_new_url	UrlManager.py	/^    def add_new_url(self,url):$/;"	m	language:Python	class:UrlManager	access:public
-add_new_urls	UrlManager.py	/^    def add_new_urls(self,urls):$/;"	m	language:Python	class:UrlManager	access:public
-address	socket_client.py	/^    address = sys.argv[2]$/;"	v	language:Python
-all_the_text	2012.py	/^    all_the_text=open_file(file_name,'read_all')$/;"	v	language:Python
-allnum	josephus.py	/^    allnum=int(sys.argv[1])$/;"	v	language:Python
-collect_data	HtmlOutputer.py	/^    def collect_data(self,data):$/;"	m	language:Python	class:HtmlOutputer	access:public
-collection	pcap2xml.py	/^    collection = DOMTree.getroot()$/;"	v	language:Python
-cookiebug	bug.py	/^def cookiebug(url):$/;"	f	language:Python	access:public
-cookielib	bug.py	/^import cookielib$/;"	i	language:Python
-count	fib.py	/^def count(n):$/;"	f	language:Python	access:public
-count	score.py	/^def count(n):$/;"	f	language:Python	access:public
-cout	fib.py	/^def cout(n):$/;"	f	language:Python	access:public
-craw	PythonBug.py	/^    def craw(self,root_url):$/;"	m	language:Python	class:SpiderMain	access:public
-creat_number	lucky.py	/^def creat_number():$/;"	f	language:Python	access:public
-cursor	pcap2xml.py	/^    cursor = db.cursor()$/;"	v	language:Python
-data_size	pcap2xml.py	/^                data_size = item.attrib["size"]$/;"	v	language:Python
-data_size	pcap2xml.py	/^        data_size = 0 $/;"	v	language:Python
-data_size	pcap2xml.py	/^       data_size = line[6]$/;"	v	language:Python
-db	pcap2xml.py	/^    db = sqlite3.connect("PACKETS.db")$/;"	v	language:Python
-download	HtmlDownloader.py	/^    def download(self,url):$/;"	m	language:Python	class:HtmlDownloader	access:public
-dst_ip	pcap2xml.py	/^                dst_ip = string[s+5:t]$/;"	v	language:Python
-dst_ip	pcap2xml.py	/^        dst_ip = ""$/;"	v	language:Python
-dst_ip	pcap2xml.py	/^       dst_ip = line[4]$/;"	v	language:Python
-dst_port	pcap2xml.py	/^                dst_port = string[s+10:t]$/;"	v	language:Python
-dst_port	pcap2xml.py	/^        dst_port = "" $/;"	v	language:Python
-dst_port	pcap2xml.py	/^       dst_port = line[5]$/;"	v	language:Python
-echo_client	socket_client.py	/^def echo_client(message,address,port):$/;"	f	language:Python	access:public
-echo_server	socket_sever.py	/^def echo_server(port):$/;"	f	language:Python	access:public
-end_port	script.py	/^        end_port = 65535$/;"	v	language:Python
-end_port	script.py	/^        end_port = int(sys.argv[2])$/;"	v	language:Python
-etree	pcap2xml.py	/^import xml.etree.cElementTree as ET$/;"	i	language:Python
-file0	pcap2xml.py	/^    file0 = open("new.xml","w")$/;"	v	language:Python
-file_len	2012.py	/^    file_len=open_file(file_name,'len')$/;"	v	language:Python
-file_name	2012.py	/^    file_name=sys.argv[1]$/;"	v	language:Python
-file_name	lucky.py	/^    file_name=sys.argv[1]$/;"	v	language:Python
-find_number	2012.py	/^def find_number(name):$/;"	f	language:Python	access:public
-find_number	lucky.py	/^def find_number(file_name):$/;"	f	language:Python	access:public
-find_number	str.py	/^def find_number(a):$/;"	f	language:Python	access:public
-findnum	number.py	/^def findnum(n):$/;"	f	language:Python	access:public
-get_new_url	UrlManager.py	/^    def get_new_url(self):$/;"	m	language:Python	class:UrlManager	access:public
-has_new_url	UrlManager.py	/^    def has_new_url(self):$/;"	m	language:Python	class:UrlManager	access:public
-host	socket_sever.py	/^host = 'localhost'$/;"	v	language:Python
-html_doc	bug.py	/^    html_doc = cookiebug(url)$/;"	v	language:Python
-i	score.py	/^            i=i+1$/;"	v	language:Python
-i	score.py	/^    i=1$/;"	v	language:Python
-indent	pcap2xml.py	/^def indent(elem, level=0):$/;"	f	language:Python	access:public
-kbhit	lucky.py	/^def kbhit():$/;"	f	language:Python	access:public
-link	bug.py	/^    link = soup.find_all('a')$/;"	v	language:Python
-link1	bug.py	/^    link1= soup.find('a',href=re.compile(r'search'))$/;"	v	language:Python
-list1	fib.py	/^    list1=[];$/;"	v	language:Python
-list1	josephus.py	/^    list1=[]$/;"	v	language:Python
-list1	score.py	/^    list1=[]$/;"	v	language:Python
-lucky_number	lucky.py	/^    lucky_number=find_number(file_name)$/;"	v	language:Python
-m	pcap2xml.py	/^       m = {"source_ip":src_ip, "source_port":src_port,$/;"	v	language:Python
-make_dictionary	str.py	/^def make_dictionary(a):$/;"	f	language:Python	access:public
-make_dictionary_withnum	str.py	/^def make_dictionary_withnum(a):$/;"	f	language:Python	access:public
-makepacketnode	pcap2xml.py	/^def makepacketnode(par, mdict):$/;"	f	language:Python	access:public
-math	number.py	/^import math$/;"	i	language:Python
-message	socket_client.py	/^    message = sys.argv[1]$/;"	v	language:Python
-n	josephus.py	/^            n=(n+quitnum) % len(list1)$/;"	v	language:Python
-n	josephus.py	/^    n=quitnum%allnum$/;"	v	language:Python
-num	fib.py	/^        num=8$/;"	v	language:Python
-num	fib.py	/^        num=int(sys.argv[1])  #获取命令行参数$/;"	v	language:Python
-num	number.py	/^        num =10$/;"	v	language:Python
-num	number.py	/^        num=int(sys.argv[1])$/;"	v	language:Python
-num	pcap2xml.py	/^       num = line[0]$/;"	v	language:Python
-num	pcap2xml.py	/^    num = 1$/;"	v	language:Python
-num	score.py	/^        num=float(raw_input())$/;"	v	language:Python
-obj_spider	PythonBug.py	/^    obj_spider = SpiderMain()$/;"	v	language:Python	class:SpiderMain
-open_file	2012.py	/^def open_file(name,how):$/;"	f	language:Python	access:public
-openandwrite_file	2012.py	/^def openandwrite_file(open_name,write_name):$/;"	f	language:Python	access:public
-output_html	HtmlOutputer.py	/^    def output_html(self):$/;"	m	language:Python	class:HtmlOutputer	access:public
-packet_size	pcap2xml.py	/^            packet_size = item.attrib["size"]$/;"	v	language:Python
-packet_size	pcap2xml.py	/^        packet_size = 0 $/;"	v	language:Python
-packet_size	pcap2xml.py	/^       packet_size = line[8]$/;"	v	language:Python
-parse	HtmlParser.py	/^    def parse(self, page_url, html_cont):$/;"	m	language:Python	class:HtmlParser	access:public
-port	socket_client.py	/^    port = int(sys.argv[3])$/;"	v	language:Python
-port	socket_sever.py	/^    port = int(sys.argv[1])$/;"	v	language:Python
-protocol	pcap2xml.py	/^                protocol = "tcp"$/;"	v	language:Python
-protocol	pcap2xml.py	/^                protocol = "udp"$/;"	v	language:Python
-protocol	pcap2xml.py	/^        protocol = ""$/;"	v	language:Python
-protocol	pcap2xml.py	/^       protocol = line[3]$/;"	v	language:Python
-quitnum	josephus.py	/^    quitnum=int(sys.argv[2])$/;"	v	language:Python
-quitnum	josephus.py	/^    quitnum=quitnum-1$/;"	v	language:Python
-random	lucky.py	/^import random$/;"	i	language:Python
-re	2012.py	/^import re$/;"	i	language:Python
-re	HtmlParser.py	/^import re$/;"	i	language:Python
-re	bug.py	/^import re$/;"	i	language:Python
-re	lucky.py	/^import re$/;"	i	language:Python
-re	str.py	/^import re$/;"	i	language:Python
-read_file	lucky.py	/^def read_file(name):$/;"	f	language:Python	access:public
-requestbug	bug.py	/^def requestbug(url):$/;"	f	language:Python	access:public
-results	pcap2xml.py	/^    results = cursor.execute(sql)$/;"	v	language:Python
-rm_word	str.py	/^def rm_word(a):$/;"	f	language:Python	access:public
-root	pcap2xml.py	/^    root = ET.Element("packetcollection")$/;"	v	language:Python
-root_url	PythonBug.py	/^    root_url="http:\/\/baike.baidu.com\/view\/262.htm"$/;"	v	language:Python	class:SpiderMain
-s	pcap2xml.py	/^                s = string.find("Dst Port:",t)$/;"	v	language:Python
-s	pcap2xml.py	/^                s = string.find("Dst:", t)$/;"	v	language:Python
-s	pcap2xml.py	/^                s = string.find("Src Port:",0)$/;"	v	language:Python
-s	pcap2xml.py	/^                s = string.find("Src:", 0)$/;"	v	language:Python
-s	school.py	/^    s=Student("小河",77,2012001)$/;"	v	language:Python
-say_hello	school.py	/^    def say_hello(self):$/;"	m	language:Python	class:SchoolMember	access:public
-say_hello	school.py	/^    def say_hello(self):$/;"	m	language:Python	class:Student	access:public
-say_hello	school.py	/^    def say_hello(self):$/;"	m	language:Python	class:Teacher	access:public
-scan_ports	script.py	/^def scan_ports(host,start_port,end_port):$/;"	f	language:Python	access:public
-select	lucky.py	/^import select$/;"	i	language:Python
-simplebug	bug.py	/^def simplebug(url):$/;"	f	language:Python	access:public
-socket	script.py	/^import socket$/;"	i	language:Python
-socket	socket_client.py	/^import socket$/;"	i	language:Python
-socket	socket_sever.py	/^import socket$/;"	i	language:Python
-sort_dictionary	str.py	/^def sort_dictionary(a):$/;"	f	language:Python	access:public
-soup	bug.py	/^    soup = BeautifulSoup(html_doc,'html.parser',from_encoding='utf-8')$/;"	v	language:Python
-sql	pcap2xml.py	/^    sql = "SELECT * FROM packet"$/;"	v	language:Python
-sqlite3	pcap2xml.py	/^import sqlite3$/;"	i	language:Python
-src_ip	pcap2xml.py	/^                src_ip = string[s+5:t]$/;"	v	language:Python
-src_ip	pcap2xml.py	/^        src_ip = ""$/;"	v	language:Python
-src_ip	pcap2xml.py	/^       src_ip = line[1]$/;"	v	language:Python
-src_port	pcap2xml.py	/^                src_port = string[s+10:t]$/;"	v	language:Python
-src_port	pcap2xml.py	/^        src_port = ""$/;"	v	language:Python
-src_port	pcap2xml.py	/^       src_port = line[2]$/;"	v	language:Python
-start_port	script.py	/^        start_port = 1$/;"	v	language:Python
-start_port	script.py	/^        start_port = int(sys.argv[1])$/;"	v	language:Python
-string	2012.py	/^import string$/;"	i	language:Python
-string	pcap2xml.py	/^                string = item.attrib["showname"]$/;"	v	language:Python
-string	pcap2xml.py	/^import string $/;"	i	language:Python
-string	str.py	/^import string $/;"	i	language:Python
-sum_number	school.py	/^    sum_number=0$/;"	v	language:Python	class:SchoolMember
-sys	2012.py	/^import sys$/;"	i	language:Python
-sys	fib.py	/^import sys$/;"	i	language:Python
-sys	josephus.py	/^import sys$/;"	i	language:Python
-sys	lucky.py	/^import sys$/;"	i	language:Python
-sys	number.py	/^import sys$/;"	i	language:Python
-sys	pcap2xml.py	/^import sys$/;"	i	language:Python
-sys	score.py	/^import sys$/;"	i	language:Python
-sys	script.py	/^import sys$/;"	i	language:Python
-sys	socket_client.py	/^import sys$/;"	i	language:Python
-sys	socket_sever.py	/^import sys$/;"	i	language:Python
-t	pcap2xml.py	/^                t = string.find(" (",0)$/;"	v	language:Python
-t	pcap2xml.py	/^                t = string.find(" (",t+1)$/;"	v	language:Python
-t	school.py	/^    t=Teacher("老黄",3000)$/;"	v	language:Python
-time	lucky.py	/^import time$/;"	i	language:Python
-timestamp	pcap2xml.py	/^                timestamp = x.attrib["show"]$/;"	v	language:Python
-timestamp	pcap2xml.py	/^        timestamp = "" $/;"	v	language:Python
-timestamp	pcap2xml.py	/^       timestamp = line[7]$/;"	v	language:Python
-tree	pcap2xml.py	/^    tree = ET.ElementTree(root)$/;"	v	language:Python
-types	str.py	/^import types$/;"	i	language:Python
-url	bug.py	/^    url = 'http:\/\/baike.baidu.com\/view\/21087.htm'$/;"	v	language:Python
-urllib2	HtmlDownloader.py	/^import urllib2$/;"	i	language:Python
-urllib2	bug.py	/^import urllib2$/;"	i	language:Python
-urlparse	HtmlParser.py	/^import urlparse$/;"	i	language:Python
-write_file	2012.py	/^def write_file(name,content):$/;"	f	language:Python	access:public
-write_file	lucky.py	/^def write_file(name,content):$/;"	f	language:Python	access:public
-x	pcap2xml.py	/^       x = makepacketnode(root,m)$/;"	v	language:Python
-xml	pcap2xml.py	/^import xml.etree.cElementTree as ET$/;"	i	language:Python
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZE	python_data/3_12b_ipv6_echo_client.py	/^BUFSIZE = 1024$/;"	v
+BUF_SIZE	python_data/2_1_forking_mixin_socket_server.py	/^BUF_SIZE = 1024$/;"	v
+BUF_SIZE	python_data/2_2_threading_mixin_socket_server.py	/^BUF_SIZE = 1024$/;"	v
+DELIMITER	vote.py	/^    DELIMITER = '\\n'$/;"	v	class:VoteInfo
+DELI_SIZE	vote.py	/^    DELI_SIZE = 2$/;"	v	class:VoteInfo
+DOMTree	pcap2xml.py	/^    DOMTree = ET.parse("com.ophone.MiniPlayer.pdml")$/;"	v
+ECHO_MSG	python_data/2_1_forking_mixin_socket_server.py	/^ECHO_MSG = 'Hello echo server!'$/;"	v
+EchoHandler	python_data/asyncore_echo_server.py	/^class EchoHandler(asyncore.dispatcher_with_send):$/;"	c	inherits:asyncore.dispatcher_with_send
+EchoServer	python_data/asyncore_echo_server.py	/^class EchoServer(asyncore.dispatcher):$/;"	c	inherits:asyncore.dispatcher
+ForkedClient	python_data/2_1_forking_mixin_socket_server.py	/^class ForkedClient():$/;"	c	inherits:
+ForkingServer	python_data/2_1_forking_mixin_socket_server.py	/^                    ):$/;"	c	inherits:SocketServer.ForkingMixIn,                     SocketServer.TCPServer,                     
+ForkingServerRequestHandler	python_data/2_1_forking_mixin_socket_server.py	/^class ForkingServerRequestHandler(SocketServer.BaseRequestHandler):$/;"	c	inherits:SocketServer.BaseRequestHandler
+HOST	python_data/3_12a_ipv6_echo_server.py	/^HOST = 'localhost'$/;"	v
+HOST	python_data/3_12b_ipv6_echo_client.py	/^HOST = 'localhost'$/;"	v
+HtmlDownloader	HtmlDownloader.py	/^class HtmlDownloader(object):$/;"	c	inherits:object
+HtmlOutputer	HtmlOutputer.py	/^class HtmlOutputer(object):$/;"	c	inherits:object
+HtmlParser	HtmlParser.py	/^class HtmlParser(object):$/;"	c	inherits:object
+INQUIRY_FLAG	vote.py	/^    INQUIRY_FLAG = 0x0100$/;"	v	class:VoteInfo
+MAGIC	vote.py	/^    MAGIC = 0x5400$/;"	v	class:VoteInfo
+MAGIC_MASK	vote.py	/^    MAGIC_MASK = 0xFC00$/;"	v	class:VoteInfo
+MAX_CANDIDATE	vote.py	/^    MAX_CANDIDATE = 1000$/;"	v	class:VoteInfo
+MAX_WIRE_SIZE	vote.py	/^    MAX_WIRE_SIZE = 500$/;"	v	class:VoteInfo
+MyTCPHandler	python_data/socketserver_tcp_server.py	/^class MyTCPHandler(SocketServer.BaseRequestHandler):$/;"	c	inherits:SocketServer.BaseRequestHandler
+MyTCPHandler1	python_data/socketserver_tcp_server.py	/^class MyTCPHandler1(SocketServer.StreamRequestHandler):$/;"	c	inherits:SocketServer.StreamRequestHandler
+RESPONSE_FLAG	vote.py	/^    RESPONSE_FLAG = 0x0200$/;"	v	class:VoteInfo
+SERVER_HOST	python_data/2_1_forking_mixin_socket_server.py	/^SERVER_HOST = 'localhost'$/;"	v
+SERVER_HOST	python_data/2_2_threading_mixin_socket_server.py	/^SERVER_HOST = 'localhost'$/;"	v
+SERVER_PORT	python_data/2_1_forking_mixin_socket_server.py	/^SERVER_PORT = 0 # tells the kernel to pickup a port dynamically$/;"	v
+SERVER_PORT	python_data/2_2_threading_mixin_socket_server.py	/^SERVER_PORT = 0 # tells the kernel to pickup a port dynamically$/;"	v
+SchoolMember	python_data/SchoolMember.py	/^class SchoolMember:$/;"	c	inherits:
+SchoolMember	school.py	/^class SchoolMember:$/;"	c	inherits:
+SpiderMain	PythonBug.py	/^class SpiderMain(object):$/;"	c	inherits:object
+Student	python_data/SchoolMember.py	/^class Student(SchoolMember):$/;"	c	inherits:SchoolMember
+Student	school.py	/^class Student(SchoolMember):$/;"	c	inherits:SchoolMember
+Teacher	python_data/SchoolMember.py	/^class Teacher(SchoolMember):$/;"	c	inherits:SchoolMember
+Teacher	school.py	/^class Teacher(SchoolMember):$/;"	c	inherits:SchoolMember
+ThreadedTCPRequestHandler	python_data/2_2_threading_mixin_socket_server.py	/^class ThreadedTCPRequestHandler(SocketServer.BaseRequestHandler):$/;"	c	inherits:SocketServer.BaseRequestHandler
+ThreadedTCPServer	python_data/2_2_threading_mixin_socket_server.py	/^class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):$/;"	c	inherits:SocketServer.ThreadingMixIn, SocketServer.TCPServer
+UrlManager	UrlManager.py	/^class UrlManager(object):$/;"	c	inherits:object
+VoteInfo	vote.py	/^class VoteInfo :$/;"	c	inherits:
+__del__	python_data/SchoolMember.py	/^	def __del__(self):$/;"	m	class:SchoolMember	file:	access:private
+__del__	python_data/SchoolMember.py	/^	def __del__(self):$/;"	m	class:Student	file:	access:private
+__del__	python_data/SchoolMember.py	/^	def __del__(self):$/;"	m	class:Teacher	file:	access:private
+__del__	school.py	/^    def __del__(self):$/;"	m	class:SchoolMember	file:	access:private
+__del__	school.py	/^    def __del__(self):$/;"	m	class:Student	file:	access:private
+__del__	school.py	/^    def __del__(self):$/;"	m	class:Teacher	file:	access:private
+__init__	HtmlOutputer.py	/^    def __init__(self):$/;"	m	class:HtmlOutputer	access:public
+__init__	PythonBug.py	/^    def __init__(self):$/;"	m	class:SpiderMain	access:public
+__init__	UrlManager.py	/^    def __init__(self):$/;"	m	class:UrlManager	access:public
+__init__	python_data/2_1_forking_mixin_socket_server.py	/^    def __init__(self, ip, port):$/;"	m	class:ForkedClient	access:public
+__init__	python_data/SchoolMember.py	/^	def __init__(self, name):$/;"	m	class:SchoolMember	access:public
+__init__	python_data/SchoolMember.py	/^	def __init__(self, name, mark):$/;"	m	class:Student	access:public
+__init__	python_data/SchoolMember.py	/^	def __init__(self, name, salary):$/;"	m	class:Teacher	access:public
+__init__	python_data/asyncore_echo_server.py	/^    def __init__(self, host, port):$/;"	m	class:EchoServer	access:public
+__init__	school.py	/^    def __init__(self,name):$/;"	m	class:SchoolMember	access:public
+__init__	school.py	/^    def __init__(self,name,mark,idnum):$/;"	m	class:Student	access:public
+__init__	school.py	/^    def __init__(self,name,salary):$/;"	m	class:Teacher	access:public
+__init__	vote.py	/^    def __init__(self, candidate = -1, isInquiry = True, isResponse = False, count = 0):$/;"	m	class:VoteInfo	access:public
+_get_new_data	HtmlParser.py	/^    def _get_new_data(self,page_url,soup):$/;"	m	class:HtmlParser	access:public
+_get_new_urls	HtmlParser.py	/^    def _get_new_urls(self,page_url,soup):$/;"	m	class:HtmlParser	access:public
+a	str.py	/^    a='aAsmr3idd4bgs7Dlsf9eAF'$/;"	v
+add_new_url	UrlManager.py	/^    def add_new_url(self,url):$/;"	m	class:UrlManager	access:public
+add_new_urls	UrlManager.py	/^    def add_new_urls(self,urls):$/;"	m	class:UrlManager	access:public
+address	socket_client.py	/^    address = sys.argv[2]$/;"	v
+all_the_text	2012.py	/^    all_the_text=open_file(file_name,'read_all')$/;"	v
+allnum	josephus.py	/^    allnum=int(sys.argv[1])$/;"	v
+app	python_data/web_flask/web_flask.py	/^app = Flask(__name__)$/;"	v
+backlog	python_data/tcp_echo_server.py	/^backlog = 5 $/;"	v
+candidate	python_data/vote_client.py	/^    candidate = given_args.candidate$/;"	v
+candidate_ID	vote_client.py	/^	candidate_ID = int(sys.argv[2])$/;"	v
+client	python_data/2_2_threading_mixin_socket_server.py	/^def client(ip, port, message):$/;"	f	access:public
+client	python_data/suds-typenotfound.py	/^client = Client(url, doctor=ImportDoctor(imp))$/;"	v
+collect_data	HtmlOutputer.py	/^    def collect_data(self,data):$/;"	m	class:HtmlOutputer	access:public
+collection	pcap2xml.py	/^    collection = DOMTree.getroot()$/;"	v
+cookiebug	bug.py	/^def cookiebug(url):$/;"	f	access:public
+count	fib.py	/^def count(n):$/;"	f	access:public
+count	score.py	/^def count(n):$/;"	f	access:public
+cout	fib.py	/^def cout(n):$/;"	f	access:public
+craw	PythonBug.py	/^    def craw(self,root_url):$/;"	m	class:SpiderMain	access:public
+creat_number	lucky.py	/^def creat_number():$/;"	f	access:public
+cursor	pcap2xml.py	/^    cursor = db.cursor()$/;"	v
+data	python_data/socketserver_tcp_client.py	/^data = " ".join(sys.argv[1:])$/;"	v
+data_payload	python_data/tcp_echo_server.py	/^data_payload = 2048$/;"	v
+data_payload	python_data/udp_echo_server.py	/^data_payload = 2048$/;"	v
+data_size	pcap2xml.py	/^                data_size = item.attrib["size"]$/;"	v
+data_size	pcap2xml.py	/^        data_size = 0 $/;"	v
+data_size	pcap2xml.py	/^       data_size = line[6]$/;"	v
+db	pcap2xml.py	/^    db = sqlite3.connect("PACKETS.db")$/;"	v
+decodeBin	vote.py	/^    def decodeBin(self, sText):$/;"	m	class:VoteInfo	access:public
+decodeText	vote.py	/^    def decodeText(self, sText):$/;"	m	class:VoteInfo	access:public
+download	HtmlDownloader.py	/^    def download(self,url):$/;"	m	class:HtmlDownloader	access:public
+dst_ip	pcap2xml.py	/^                dst_ip = string[s+5:t]$/;"	v
+dst_ip	pcap2xml.py	/^        dst_ip = ""$/;"	v
+dst_ip	pcap2xml.py	/^       dst_ip = line[4]$/;"	v
+dst_port	pcap2xml.py	/^                dst_port = string[s+10:t]$/;"	v
+dst_port	pcap2xml.py	/^        dst_port = "" $/;"	v
+dst_port	pcap2xml.py	/^       dst_port = line[5]$/;"	v
+echo_client	python_data/tcp_echo_client.py	/^def echo_client(port):$/;"	f	access:public
+echo_client	python_data/udp_echo_client.py	/^def echo_client(port):$/;"	f	access:public
+echo_client	socket_client.py	/^def echo_client(message,address,port):$/;"	f	access:public
+echo_server	python_data/3_12a_ipv6_echo_server.py	/^def echo_server(port, host=HOST):$/;"	f	access:public
+echo_server	python_data/tcp_echo_server.py	/^def echo_server(port):$/;"	f	access:public
+echo_server	python_data/udp_echo_server.py	/^def echo_server(port):$/;"	f	access:public
+echo_server	socket_sever.py	/^def echo_server(port):$/;"	f	access:public
+encodeBin	vote.py	/^    def encodeBin(self):$/;"	m	class:VoteInfo	access:public
+encodeText	vote.py	/^    def encodeText(self):$/;"	m	class:VoteInfo	access:public
+end_port	script.py	/^        end_port = 65535$/;"	v
+end_port	script.py	/^        end_port = int(sys.argv[2])$/;"	v
+file0	pcap2xml.py	/^    file0 = open("new.xml","w")$/;"	v
+file_len	2012.py	/^    file_len=open_file(file_name,'len')$/;"	v
+file_name	2012.py	/^    file_name=sys.argv[1]$/;"	v
+file_name	lucky.py	/^    file_name=sys.argv[1]$/;"	v
+find_number	2012.py	/^def find_number(name):$/;"	f	access:public
+find_number	lucky.py	/^def find_number(file_name):$/;"	f	access:public
+find_number	str.py	/^def find_number(a):$/;"	f	access:public
+findnum	number.py	/^def findnum(n):$/;"	f	access:public
+getNextMsgBin	vote.py	/^    def getNextMsgBin(self,sock):$/;"	m	class:VoteInfo	access:public
+getNextMsgText	vote.py	/^    def getNextMsgText(self,sock):$/;"	m	class:VoteInfo	access:public
+get_new_url	UrlManager.py	/^    def get_new_url(self):$/;"	m	class:UrlManager	access:public
+given_args	python_data/3_12a_ipv6_echo_server.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/3_12b_ipv6_echo_client.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/9_4_scan_port_of_a_remote_host.py	/^    given_args = parser.parse_args()$/;"	v
+given_args	python_data/tcp_echo_client.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/tcp_echo_server.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/udp_echo_client.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/udp_echo_server.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/vote_client.py	/^    given_args = parser.parse_args() $/;"	v
+given_args	python_data/vote_server.py	/^    given_args = parser.parse_args() $/;"	v
+handle	python_data/2_1_forking_mixin_socket_server.py	/^    def handle(self):        $/;"	m	class:ForkingServerRequestHandler	access:public
+handle	python_data/2_2_threading_mixin_socket_server.py	/^    def handle(self):$/;"	m	class:ThreadedTCPRequestHandler	access:public
+handle	python_data/socketserver_tcp_server.py	/^    def handle(self):$/;"	m	class:MyTCPHandler	access:public
+handle	python_data/socketserver_tcp_server.py	/^    def handle(self):$/;"	m	class:MyTCPHandler1	access:public
+handle_accept	python_data/asyncore_echo_server.py	/^    def handle_accept(self):$/;"	m	class:EchoServer	access:public
+handle_read	python_data/asyncore_echo_server.py	/^    def handle_read(self):$/;"	m	class:EchoHandler	access:public
+has_new_url	UrlManager.py	/^    def has_new_url(self):$/;"	m	class:UrlManager	access:public
+home	python_data/web_flask/web_flask.py	/^def home():$/;"	f	access:public
+host	python_data/tcp_echo_client.py	/^host = 'localhost'$/;"	v
+host	python_data/tcp_echo_server.py	/^host = 'localhost'$/;"	v
+host	python_data/udp_echo_client.py	/^host = 'localhost'$/;"	v
+host	python_data/udp_echo_server.py	/^host = 'localhost'$/;"	v
+host	python_data/vote_client.py	/^host = 'localhost'$/;"	v
+host	python_data/vote_server.py	/^host = 'localhost'$/;"	v
+host	socket_sever.py	/^host = 'localhost'$/;"	v
+host	vote_server.py	/^host = 'localhost'$/;"	v
+html_doc	bug.py	/^    html_doc = cookiebug(url)$/;"	v
+i	score.py	/^            i=i+1$/;"	v
+i	score.py	/^    i=1$/;"	v
+imp	python_data/suds-typenotfound.py	/^imp = Import('http:\/\/www.w3.org\/2001\/XMLSchema',$/;"	v
+indent	pcap2xml.py	/^def indent(elem, level=0):$/;"	f	access:public
+int_ip	text.py	/^    int_ip = int_ip+1$/;"	v
+int_ip	text.py	/^    int_ip = socket.ntohl(struct.unpack("I",socket.inet_aton(str(ip)))[0])$/;"	v
+ip	text.py	/^    ip = '127.0.0.1'$/;"	v
+ip_ip	text.py	/^    ip_ip = socket.inet_ntoa(struct.pack('I',socket.htonl(int_ip)))$/;"	v
+ipv6_echo_client	python_data/3_12b_ipv6_echo_client.py	/^def ipv6_echo_client(port, host=HOST):$/;"	f	access:public
+kbhit	lucky.py	/^def kbhit():$/;"	f	access:public
+link	bug.py	/^    link = soup.find_all('a')$/;"	v
+link1	bug.py	/^    link1= soup.find('a',href=re.compile(r'search'))$/;"	v
+list1	fib.py	/^    list1=[];$/;"	v
+list1	josephus.py	/^    list1=[]$/;"	v
+list1	score.py	/^    list1=[]$/;"	v
+location	python_data/suds-typenotfound.py	/^    location='http:\/\/www.w3.org\/2001\/XMLSchema.xsd')$/;"	v
+lucky_number	lucky.py	/^    lucky_number=find_number(file_name)$/;"	v
+m	pcap2xml.py	/^       m = {"source_ip":src_ip, "source_port":src_port,$/;"	v
+main	python_data/2_1_forking_mixin_socket_server.py	/^def main():$/;"	f	access:public
+make_dictionary	str.py	/^def make_dictionary(a):$/;"	f	access:public
+make_dictionary_withnum	str.py	/^def make_dictionary_withnum(a):$/;"	f	access:public
+makepacketnode	pcap2xml.py	/^def makepacketnode(par, mdict):$/;"	f	access:public
+message	socket_client.py	/^    message = sys.argv[1]$/;"	v
+n	josephus.py	/^            n=(n+quitnum) % len(list1)$/;"	v
+n	josephus.py	/^    n=quitnum%allnum$/;"	v
+num	fib.py	/^        num=8$/;"	v
+num	fib.py	/^        num=int(sys.argv[1])  #获取命令行参数$/;"	v
+num	number.py	/^        num =10$/;"	v
+num	number.py	/^        num=int(sys.argv[1])$/;"	v
+num	pcap2xml.py	/^       num = line[0]$/;"	v
+num	pcap2xml.py	/^    num = 1$/;"	v
+num	score.py	/^        num=float(raw_input())$/;"	v
+obj_spider	PythonBug.py	/^    obj_spider = SpiderMain()$/;"	v	class:SpiderMain
+open_file	2012.py	/^def open_file(name,how):$/;"	f	access:public
+openandwrite_file	2012.py	/^def openandwrite_file(open_name,write_name):$/;"	f	access:public
+output_html	HtmlOutputer.py	/^    def output_html(self):$/;"	m	class:HtmlOutputer	access:public
+packet_size	pcap2xml.py	/^            packet_size = item.attrib["size"]$/;"	v
+packet_size	pcap2xml.py	/^        packet_size = 0 $/;"	v
+packet_size	pcap2xml.py	/^       packet_size = line[8]$/;"	v
+parse	HtmlParser.py	/^    def parse(self, page_url, html_cont):$/;"	m	class:HtmlParser	access:public
+parser	python_data/3_12a_ipv6_echo_server.py	/^    parser = argparse.ArgumentParser(description='IPv6 Socket Server Example')$/;"	v
+parser	python_data/3_12b_ipv6_echo_client.py	/^    parser = argparse.ArgumentParser(description='IPv6 socket client example')$/;"	v
+parser	python_data/9_4_scan_port_of_a_remote_host.py	/^    parser = argparse.ArgumentParser(description='Remote Port Scanner')$/;"	v
+parser	python_data/tcp_echo_client.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example')$/;"	v
+parser	python_data/tcp_echo_server.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example')$/;"	v
+parser	python_data/udp_echo_client.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example')$/;"	v
+parser	python_data/udp_echo_server.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example')$/;"	v
+parser	python_data/vote_client.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example')$/;"	v
+parser	python_data/vote_server.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example')$/;"	v
+port	python_data/3_12a_ipv6_echo_server.py	/^    port = given_args.port$/;"	v
+port	python_data/3_12b_ipv6_echo_client.py	/^    port = given_args.port$/;"	v
+port	python_data/tcp_echo_client.py	/^    port = given_args.port$/;"	v
+port	python_data/tcp_echo_server.py	/^    port = given_args.port$/;"	v
+port	python_data/udp_echo_client.py	/^    port = given_args.port$/;"	v
+port	python_data/udp_echo_server.py	/^    port = given_args.port$/;"	v
+port	python_data/vote_client.py	/^    port = given_args.port$/;"	v
+port	python_data/vote_server.py	/^    port = given_args.port$/;"	v
+port	socket_client.py	/^    port = int(sys.argv[3])$/;"	v
+port	socket_sever.py	/^    port = int(sys.argv[1])$/;"	v
+port	vote_server.py	/^        port = 5005$/;"	v
+port	vote_server.py	/^        port = int(sys.argv[1])$/;"	v
+printInfo	vote.py	/^    def printInfo(self):$/;"	m	class:VoteInfo	access:public
+protocol	pcap2xml.py	/^                protocol = "tcp"$/;"	v
+protocol	pcap2xml.py	/^                protocol = "udp"$/;"	v
+protocol	pcap2xml.py	/^        protocol = ""$/;"	v
+protocol	pcap2xml.py	/^       protocol = line[3]$/;"	v
+putMsgBin	vote.py	/^    def putMsgBin(self,data,sock):$/;"	m	class:VoteInfo	access:public
+putMsgText	vote.py	/^    def putMsgText(self,data,sock):$/;"	m	class:VoteInfo	access:public
+quitnum	josephus.py	/^    quitnum=int(sys.argv[2])$/;"	v
+quitnum	josephus.py	/^    quitnum=quitnum-1$/;"	v
+read_file	lucky.py	/^def read_file(name):$/;"	f	access:public
+received	python_data/socketserver_tcp_client.py	/^    received = sock.recv(1024)$/;"	v
+requestbug	bug.py	/^def requestbug(url):$/;"	f	access:public
+results	pcap2xml.py	/^    results = cursor.execute(sql)$/;"	v
+rm_word	str.py	/^def rm_word(a):$/;"	f	access:public
+root	pcap2xml.py	/^    root = ET.Element("packetcollection")$/;"	v
+root_url	PythonBug.py	/^    root_url="http:\/\/baike.baidu.com\/view\/262.htm"$/;"	v	class:SpiderMain
+run	python_data/2_1_forking_mixin_socket_server.py	/^    def run(self):$/;"	m	class:ForkedClient	access:public
+s	pcap2xml.py	/^                s = string.find("Dst Port:",t)$/;"	v
+s	pcap2xml.py	/^                s = string.find("Dst:", t)$/;"	v
+s	pcap2xml.py	/^                s = string.find("Src Port:",0)$/;"	v
+s	pcap2xml.py	/^                s = string.find("Src:", 0)$/;"	v
+s	python_data/SchoolMember.py	/^s = Student("С��", 77)$/;"	v
+s	school.py	/^    s=Student("小河",77,2012001)$/;"	v
+say_hello	python_data/SchoolMember.py	/^	def say_hello(self):$/;"	m	class:SchoolMember	access:public
+say_hello	python_data/SchoolMember.py	/^	def say_hello(self):$/;"	m	class:Student	access:public
+say_hello	python_data/SchoolMember.py	/^	def say_hello(self):$/;"	m	class:Teacher	access:public
+say_hello	school.py	/^    def say_hello(self):$/;"	m	class:SchoolMember	access:public
+say_hello	school.py	/^    def say_hello(self):$/;"	m	class:Student	access:public
+say_hello	school.py	/^    def say_hello(self):$/;"	m	class:Teacher	access:public
+scan_ports	python_data/9_4_scan_port_of_a_remote_host.py	/^def scan_ports(host, start_port, end_port):$/;"	f	access:public
+scan_ports	script.py	/^def scan_ports(host,start_port,end_port):$/;"	f	access:public
+server	python_data/2_2_threading_mixin_socket_server.py	/^    server = ThreadedTCPServer((SERVER_HOST, SERVER_PORT), ThreadedTCPRequestHandler)$/;"	v	class:ThreadedTCPServer
+server	python_data/asyncore_echo_server.py	/^server = EchoServer('localhost', 8080)$/;"	v
+server	python_data/socketserver_tcp_server.py	/^    server = SocketServer.TCPServer((HOST, PORT), MyTCPHandler)$/;"	v
+server_ip	vote_client.py	/^	server_ip = sys.argv[3]$/;"	v
+server_port	vote_client.py	/^		server_port = 5005$/;"	v
+server_port	vote_client.py	/^		server_port = int(sys.argv[4])$/;"	v
+server_thread	python_data/2_2_threading_mixin_socket_server.py	/^    server_thread = threading.Thread(target=server.serve_forever)$/;"	v	class:ThreadedTCPServer
+setProperty	vote.py	/^    def setProperty(self, isInquiry, isResponse, count):$/;"	m	class:VoteInfo	access:public
+shutdown	python_data/2_1_forking_mixin_socket_server.py	/^    def shutdown(self):$/;"	m	class:ForkedClient	access:public
+signin	python_data/web_flask/web_flask.py	/^def signin():$/;"	f	access:public
+signin_form	python_data/web_flask/web_flask.py	/^def signin_form():$/;"	f	access:public
+simplebug	bug.py	/^def simplebug(url):$/;"	f	access:public
+sock	python_data/socketserver_tcp_client.py	/^sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+sort_dictionary	str.py	/^def sort_dictionary(a):$/;"	f	access:public
+soup	bug.py	/^    soup = BeautifulSoup(html_doc,'html.parser',from_encoding='utf-8')$/;"	v
+sql	pcap2xml.py	/^    sql = "SELECT * FROM packet"$/;"	v
+src_ip	pcap2xml.py	/^                src_ip = string[s+5:t]$/;"	v
+src_ip	pcap2xml.py	/^        src_ip = ""$/;"	v
+src_ip	pcap2xml.py	/^       src_ip = line[1]$/;"	v
+src_port	pcap2xml.py	/^                src_port = string[s+10:t]$/;"	v
+src_port	pcap2xml.py	/^        src_port = ""$/;"	v
+src_port	pcap2xml.py	/^       src_port = line[2]$/;"	v
+start_port	script.py	/^        start_port = 1$/;"	v
+start_port	script.py	/^        start_port = int(sys.argv[1])$/;"	v
+string	pcap2xml.py	/^                string = item.attrib["showname"]$/;"	v
+sum_member	python_data/SchoolMember.py	/^	sum_member = 0$/;"	v	class:SchoolMember
+sum_number	school.py	/^    sum_number=0$/;"	v	class:SchoolMember
+t	pcap2xml.py	/^                t = string.find(" (",0)$/;"	v
+t	pcap2xml.py	/^                t = string.find(" (",t+1)$/;"	v
+t	python_data/SchoolMember.py	/^t = Teacher("�ϻ�", 3000)$/;"	v
+t	school.py	/^    t=Teacher("老黄",3000)$/;"	v
+timestamp	pcap2xml.py	/^                timestamp = x.attrib["show"]$/;"	v
+timestamp	pcap2xml.py	/^        timestamp = "" $/;"	v
+timestamp	pcap2xml.py	/^       timestamp = line[7]$/;"	v
+tree	pcap2xml.py	/^    tree = ET.ElementTree(root)$/;"	v
+url	bug.py	/^    url = 'http:\/\/baike.baidu.com\/view\/21087.htm'$/;"	v
+url	python_data/suds-typenotfound.py	/^url = 'http:\/\/www.webxml.com.cn\/WebServices\/WeatherWebService.asmx?wsdl'$/;"	v
+vote_client	python_data/vote_client.py	/^def vote_client(port,candidate,inq):$/;"	f	access:public
+vote_client	vote_client.py	/^def vote_client(port,candidate,server_ip,way):$/;"	f	access:public
+vote_server	python_data/vote_server.py	/^def vote_server(port):$/;"	f	access:public
+vote_server	vote_server.py	/^def vote_server(port):$/;"	f	access:public
+voting_count	python_data/vote_server.py	/^voting_count = [0 for x in xrange(VoteInfo.MAX_CANDIDATE)]$/;"	v
+voting_count	vote_server.py	/^voting_count = [0 for x in xrange(VoteInfo.MAX_CANDIDATE)]$/;"	v
+way	vote_client.py	/^	way = sys.argv[1]$/;"	v
+write_file	2012.py	/^def write_file(name,content):$/;"	f	access:public
+write_file	lucky.py	/^def write_file(name,content):$/;"	f	access:public
+x	pcap2xml.py	/^       x = makepacketnode(root,m)$/;"	v
