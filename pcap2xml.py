@@ -6,7 +6,6 @@ import string
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-#xml缩进换行处理
 def indent(elem, level=0):
     i = "\n" + level*"  "
     if len(elem):
@@ -20,7 +19,6 @@ def indent(elem, level=0):
         elem.tail = i
     return elem
 
-#生成节点
 def makepacketnode(par, mdict):
     packet = ET.SubElement(par, "packet")
     for key in mdict:
