@@ -19,7 +19,7 @@ class VoteInfo :
     DELIMITER = '\n'
     DELI_SIZE = 2
 
-    def __init__(self, candidate = -1, isInquiry = True, isResponse = False, count = 0):
+    def __init__(self, candidate = -1, isInquiry = True, isResponse = False, count = -1L):
 
         self.candidate = candidate
         self.isInquiry = isInquiry
@@ -34,14 +34,7 @@ class VoteInfo :
 
 
     def printInfo(self):
-        print 'VoteInfo:'
-        print 'candidate: ',self.candidate
-        print 'isInquiry: ',self.isInquiry
-#        print 'isResponse',self.isResponse
-        print 'now: ',self.count
-#        print 'MAX_CANDIDATE: ', VoteInfo.MAX_CANDIDATE
-#        print 'MAX_WIRE_SIZE: ', VoteInfo.MAX_WIRE_SIZE
-
+        print 'candidate:',self.candidate,' now',self.count
 
     def encodeText(self):
         'Voting  <v|i> [R] <candidate ID> <count>'

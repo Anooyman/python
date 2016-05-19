@@ -22,23 +22,15 @@ def vote_server(port):
         try:
             v = VoteInfo()
             data = v.getNextMsgText(client)
-            print "getNextMsgText:",data
             v.decodeText(data)
             if v.candidate >= 0 and v.candidate <= VoteInfo.MAX_CANDIDATE:
                 if  not (v.isInquiry ):
                     voting_count[v.candidate] = voting_count[v.candidate] + 1
 
-            v.printInfo()
-            print '#'*50
-
             v.setProperty(False,True,voting_count[v.candidate])
 
-
- 
-            v.printInfo()
-
+	    print "Client:",address[0],'vote for',v.printInfo()
             data = v.encodeText()
-            print "encodeText:",data
             v.putMsgText(data,client)
         except socket.errno,e:
             print "Socket error:",e 

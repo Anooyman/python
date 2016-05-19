@@ -13,19 +13,11 @@ def vote_client(port,candidate,server_ip,way):
 
     try:
         v = VoteInfo(candidate,way)
-        v.printInfo()
-
         data = v.encodeText()
-        print "encodeText: ", data
         v.putMsgText(data,sock)
-
-        print '#'*50
         data = v.getNextMsgText(sock)
-        print "getNextMsgText: ",data
         v.decodeText(data)
-
         v.printInfo()
-
     except socket.errno,e:
         print "Socket error: %s" %str(e)
     except Exception,e:
@@ -44,6 +36,12 @@ if __name__ == '__main__':
 		server_port = int(sys.argv[4])
 	else:
 		server_port = 5005
-        vote_client(server_port,candidate_ID,server_ip,way)
+
+        if way == 'v':
+            n = False
+        else:
+            n = True
+
+        vote_client(server_port,candidate_ID,server_ip,n)
 
 
