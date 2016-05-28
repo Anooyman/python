@@ -22,8 +22,8 @@ def vote_server(port):
         client,address = sock.accept()
         try:
             v = VoteInfo()
-            data = v.getNextMsgText(client)
-            v.decodeText(data)
+            data = v.getNextMsgBin(client)
+            v.decodeBin(data)
             if v.candidate >= 0 and v.candidate <= VoteInfo.MAX_CANDIDATE:
                 if  not (v.isInquiry ):
                     voting_count[v.candidate] = voting_count[v.candidate] + 1
@@ -31,13 +31,14 @@ def vote_server(port):
             v.setProperty(False,True,voting_count[v.candidate])
 
 	    print "Client:",address[0],'vote for',v.printInfo()
-            data = v.encodeText()
-            v.putMsgText(data,client)
+            data = v.encodeBin()
+            v.putMsgBin(data,client)
             info = time.strftime("%Y年%m月%d日,%H:%M:%S", time.localtime(time.time())) + ' ' + str(address[0]) + ' ' + str(address[1]) + ' candidate:' + str(v.candidate) + ' ' + str(voting_count[v.candidate])
     
-            file = open('vote1.txt', 'a')
+            file = open('vote2.txt', 'a')
             file.write(info + '\n')
             file.close()
+
 
         except socket.errno,e:
             print "Socket error:",e 

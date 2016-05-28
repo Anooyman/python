@@ -27,7 +27,6 @@ def makepacketnode(par, mdict):
     return packet
 
 if (__name__ == "__main__"):
-    #filename = sys.argv[1]
     print 'Create database......'
     db = sqlite3.connect("PACKETS.db")
     cursor = db.cursor()
